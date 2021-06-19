@@ -1,0 +1,3 @@
+moto g4 - iphone x -> format mobile, dispare Play Video(btn text) de la div1
+iPad - format tableta mica, cu 3 img la div2
+iPad Pro - tableta
