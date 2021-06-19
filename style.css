@@ -29,30 +29,30 @@ h1, h2, h3 {
 }
 
 @font-face {font-family: "Shopify Sans Web Medium";
-  src: url("http://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("http://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.woff2") format("woff2"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.woff") format("woff"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("http://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.svg#Shopify Sans Web Medium") format("svg"); /* iOS 4.1- */
+  src: url("https://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.woff2") format("woff2"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.woff") format("woff"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("https://db.onlinewebfonts.com/t/ad26818d844de4534fd78bb03028ca79.svg#Shopify Sans Web Medium") format("svg"); /* iOS 4.1- */
 }
 
 @font-face {font-family: "Shopify Sans Web Bold"; 
-  src: url("http://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.eot"); 
-  src: url("http://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.eot?#iefix") format("embedded-opentype"), 
-  url("http://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.woff2") format("woff2"), 
-  url("http://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.woff") format("woff"), 
-  url("http://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.ttf") format("truetype"), 
-  url("http://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.svg#Shopify Sans Web Bold") format("svg"); 
+  src: url("https://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.eot"); 
+  src: url("https://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.eot?#iefix") format("embedded-opentype"), 
+  url("https://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.woff2") format("woff2"), 
+  url("https://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.woff") format("woff"), 
+  url("https://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.ttf") format("truetype"), 
+  url("https://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.svg#Shopify Sans Web Bold") format("svg"); 
 }
 
 @font-face {font-family: "Shopify Sans Web Regular"; 
-  src: url("http://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot"); 
-  src: url("http://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot?#iefix") format("embedded-opentype"), 
-  url("http://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff2") format("woff2"), 
-  url("http://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff") format("woff"), 
-  url("http://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.ttf") format("truetype"), 
-  url("http://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.svg#Shopify Sans Web Regular") format("svg"); 
+  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot"); 
+  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot?#iefix") format("embedded-opentype"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff2") format("woff2"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff") format("woff"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.ttf") format("truetype"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.svg#Shopify Sans Web Regular") format("svg"); 
 }
 
 
@@ -1263,8 +1263,8 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
 .sec2-footer .fa-twitter, .sec2-footer .fa-youtube, .sec2-footer .fa-instagram, .sec2-footer .fa-linkedin-in {
   color: #002e25;
   font-size: 15px !important;
-  vertical-align: text-top;
-  line-height: 1.5;
+  /* vertical-align: text-top;
+  line-height: 1.5; */
 }
 .sec2-footer .social-media li:first-child a, .sec2-footer .social-media li:last-child a{
   background-color: transparent;
