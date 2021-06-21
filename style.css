@@ -17,13 +17,10 @@ a, button {
   border: none;
   background-color: unset;
   color: rgb(61, 61, 61);
-  /* font-family: Shopify Sans Web Regular, Helvetica, Arial, Lucida Grande, sans-serif; */
-  /* font-size: 16px; */
   font-weight: 400;
   text-decoration: none;
 }
 h1, h2, h3 {
-  /* font-family: Shopify Sans Web Regular, Helvetica, Arial, Lucida Grande, sans-serif; */
   line-height: 1.333;
   font-weight: 200;
 }
@@ -77,7 +74,6 @@ body {
 }
 
 .modal {
-  /* display: none; */
   width: 100%;
   height: 100%;
   background-color: #212326;
@@ -123,7 +119,6 @@ body {
   font-size: 12px;
   font-weight: 500;
   text-align: left;
-  /* transition: all .3s; */
 }
 .modal form label {
   display: block;
@@ -150,7 +145,6 @@ body {
 .modal>.div2.active, .modal>.div1.active {
   opacity: 1;
   transform: scale(1);
-  /* transition: all .5s ease-out; */
 }
 
 img, .modal video, .sell video, .sec2-footer .c-list ul>li {
@@ -163,8 +157,6 @@ img, .modal video, .sell video, .sec2-footer .c-list ul>li {
 }
 
 .modal .div1 .close-modal, .modal .div2 .close-modal {
-  /* display: block;
-  margin: 0 -10px 0 auto; */
   font-size: 38px;
   padding: 10px 10px 15px 10px;
   margin-right: -10px;
@@ -204,7 +196,6 @@ img, .modal video, .sell video, .sec2-footer .c-list ul>li {
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 16px 15px;
-  /* font-family: Shopify Sans Web Regular, Helvetica, Arial, Lucida Grande, sans-serif; */
   font-size: 16px;
   font-weight: 400;
   cursor: initial;
@@ -227,8 +218,6 @@ img, .modal video, .sell video, .sec2-footer .c-list ul>li {
 
 header {
   position: fixed;
-  /* position: sticky;
-  top: 0; */
   width: 100%;
   min-height: 80px;
   z-index: 1000;
@@ -249,7 +238,6 @@ header {
   height: inherit;
 }
 .logo {
-  /* height: 100%; */
   width: 121px;
   margin-right: 25px;
 }
@@ -275,8 +263,6 @@ header {
   margin: 0 15px;
   font-weight: 900;
   position: relative;
-  /* color: #42474c; */
-  /* letter-spacing: 0.32px; */
 }
 nav>.list-nav>li:last-child, header .list2 .display-on-mobile, .suggestions div:last-child {
   margin-right: 0;
@@ -297,7 +283,6 @@ nav>.list-nav>li:last-child, header .list2 .display-on-mobile, .suggestions div:
   font-family: Shopify Sans Web Medium, Helvetica, Arial, Lucida Grande, sans-serif;
   color: #42474c;
   letter-spacing: .37px;
-  /* word-spacing: .25px; !!!!!!!!!!!!!!*/
   outline: none;
 }
 
@@ -310,7 +295,6 @@ body .start-trial {
   font-size: initial;
   font-weight: 600;
   letter-spacing: .286px;
-  /* word-spacing: -1px; */
   box-shadow: 0px 5px 15px 0px rgb( 0, 0, 0, 15%);
   line-height: 1.13;
   transition: all .15s ease;
@@ -336,7 +320,6 @@ body .start-trial {
 
 
 .boxes {
-  /* display: none; */
   opacity: 0;
   visibility: hidden;
   transition: all .3s;
@@ -417,7 +400,6 @@ header .list2 .display-on-mobile, .modal .div3 .btn-parent>.boxes {
   display: none;
 }
 .btn-parent.active>.boxes {
-  /* display: block; */
   opacity: 1;
   visibility: visible;
 }
@@ -430,16 +412,13 @@ nav .boxes .pop-btns-box {
   width: 100%;
   font-size: 14px;
   font-weight: 400;
-  /* font-family: Shopify Sans Web Regular, Helvetica, Arial, Lucida Grande, sans-serif; */
   opacity: 0;
   visibility: hidden;
   transition: all .3s .1s;
 }
 .display-block, nav .boxes .pop-btns-box.display-block {
-  /* display: block; */
   visibility: visible;
   opacity: 1;
-  /* transition: opacity .5s; */
 }
 nav .boxes .pop-btns-box>p {
   padding: 11.25px 15px 11.25px 24px;
@@ -461,15 +440,12 @@ nav .under-lined-link::after {
   position: relative;
 }
 .modal>.div3 {
-  /* display: block; */
   width: 326px;
   max-width: 100%;
   min-height: 100%;
-  /* height: fit-content; */
   position: absolute;
   top: 0;
   right: -100%; 
-  /* left: unset; */
   padding: 0 32px 32px;
   background-color: #fff;
   z-index: 1000;
@@ -505,7 +481,7 @@ nav .under-lined-link::after {
 .modal .div3 .btn-parent.active>button>svg {
   transform: rotate(180deg);
 }
-.btn-parent.active>button {
+.btn-parent.active>button:not(.sel-c-btn) {
   color: #212326;
 }
 .btn-parent.active>button>svg>path {
@@ -560,8 +536,6 @@ main{
 }
 main .s-t-big {
   flex-grow: 1;
-  /* height: 51.2px; */
-  /* min-width: 160px; */
   padding: 17px 30px;
   margin: 0 8px 8px; 
 }
@@ -623,14 +597,12 @@ main .s-t-big {
   align-items: center;
   right: 84px;
   bottom: 20px;
-  /* width: 120px; */
   height: 30px;
   overflow: hidden;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
   text-rendering: auto;
-  /* letter-spacing: .3px;  */
   z-index: 2;
 }
 .btn-play>svg.icon {
@@ -642,14 +614,10 @@ main .s-t-big {
   background-size: contain;
   border: 2px solid #fff;
   border-radius: 2px;
-
 }
 .btn-play>svg.icon use{
   height: 5px;
 }
-/* #btn-play>span {  
-  width: fit-content; 
-} */
 .div2-sec1>video {
   display: block;
   width: 50px;
@@ -658,7 +626,6 @@ main .s-t-big {
 
 
 .sec2 {
-  /* padding: 100px 93.5px; */
   background-color: #004C3F;
   color: #ffffff;
   font-family: Shopify Sans Web Regular, Helvetica, Helvetica, Arial, Lucida Grande, sans-serif;
@@ -679,7 +646,6 @@ main .s-t-big {
   align-items: flex-start;
   flex-wrap: wrap;
   column-gap: 120px;
-  /* font-size: 17px; */
 }
 .div1-sec2 .flex-text>p {
   margin-bottom: 16px;
@@ -696,7 +662,6 @@ main .s-t-big {
   position: absolute;
   bottom: unset;
   left: unset;
-  /* left: calc(100% + 4px); */
   margin-left: 0;
   transition: left .3s cubic-bezier(0.4, 0.22, 0.28, 1);
 }
@@ -785,14 +750,12 @@ main .s-t-big {
   font-weight: 400;
   letter-spacing: -.8px;
   margin-bottom: 12px;
-  /* line-height: 1.214; */
 }
 .sec3 p, .sec6 p:not(#p-link){
   font-weight: lighter;
   color: #6b7177;
   margin-bottom: 16px;
   letter-spacing: -.2px;
-  /* word-spacing: -0.7px; */
 }
 .sec3-heading>p, .sec7 div p{
   font-size: 20px;
@@ -810,9 +773,6 @@ main .s-t-big {
   max-width: 1215px;
   margin-bottom: 32px;
 }
-/* .sec3>.sell {
-  margin-bottom: 0;
-} */
 .sec3 .sell div.video-btn {
   position: relative;  
 }
@@ -872,7 +832,6 @@ div.sell-text {
 }
 .manage div:first-child {
   width: 55%;
-  /* margin: -20px; */
 }
 .manage div:first-child img {
   width: 106.5%;
@@ -882,14 +841,11 @@ div.sell-text {
 
 
 .sec4 {
-  /* padding-top: 48px; */
-  /* padding-bottom: 48px; */
   padding: 48px calc(5% + 18px);
 }
 .sec4 .text-sec4 {
   max-width: 714px;
   padding-bottom: 60px;
-  /* padding: 0 18px 60px 18px; */
   line-height: 1.333;
   text-align: left; 
   z-index: 200;
@@ -910,9 +866,7 @@ div.sell-text {
 }
 
 .sec4 .map-btn {  
-  /* padding: 0 18px; */
   margin-top: -5%;
-  /* margin-bottom: -10%; */
 }
 .sec4 .map-btn .canvas-map {
   max-width: 1222px;
@@ -957,8 +911,6 @@ div.sell-text {
 }
 .all-sec5 .img-text picture.image { 
   align-self: stretch;
-  /* height: 300px; */
-  /* flex: 1 1 400px; */
 }
 .all-sec5 .img-text picture.image img {
   display: block;
@@ -1008,7 +960,6 @@ div.sell-text {
   border-radius: 4px;
   color: inherit;
   font-weight: 700;
-  /* font-size: 16px; */
   line-height: 1.133;
   transition: all .15s ease;
 }
@@ -1047,7 +998,6 @@ div.sell-text {
 
 
 .sec6 {
-  /* min-width: 1063px; */
   height: 100%;
   background: #fbf7ed;
   position: relative;
@@ -1057,18 +1007,15 @@ div.sell-text {
 
 .text-sec6 {
   float: left;
-  /* min-width: 536px; */
   max-width: 50%;
   padding-right: 50px;
 }
 .text-sec6 .sec6-heading {
   margin-bottom: 60px;
-  /* margin-right: 30px; */
   text-align: left;
 }
 .text-sec6 .sec6-heading h2 {
   max-width: 18ch;
-  /* min-width: 410px; */
   line-height: 1.21;
   letter-spacing: -0.83px;
 }
@@ -1100,7 +1047,6 @@ div.sell-text {
 .sec6>div:last-child {
   display: block;
   width: 50%;
-  /* min-width: 536px; */
   height: 100%;
   position: absolute;
   top: 0;
@@ -1108,7 +1054,6 @@ div.sell-text {
 }
 .sec6 div img {
   display: block;
-  /* max-width: 100%; */
   height: 100%;
   object-fit: cover;
 }
@@ -1247,7 +1192,7 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
 .sec2-footer div a:not(.c-list a) {
   height: 100%;
   color: #b6babf;
-  /* font-size: 16px; */
+  font-size: 16px;
   transition: color 300ms ease-in-out;
 }
 .sec2-footer .social-media a {
@@ -1263,8 +1208,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
 .sec2-footer .fa-twitter, .sec2-footer .fa-youtube, .sec2-footer .fa-instagram, .sec2-footer .fa-linkedin-in {
   color: #002e25;
   font-size: 15px !important;
-  /* vertical-align: text-top;
-  line-height: 1.5; */
 }
 .sec2-footer .social-media li:first-child a, .sec2-footer .social-media li:last-child a{
   background-color: transparent;
@@ -1348,7 +1291,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   .sections, .back-to-top-btn {
     padding-right: calc(5% + 9px);
     padding-left: calc(5% + 9px);
-    /* padding: 96px calc(5% + 9px); */
   }
   .sec1 {
     padding: 0;
@@ -1367,7 +1309,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   .sec1 .div2-sec1::before {
     height: 30%;
     margin-top: auto;
-    /* overflow: auto; */
   }
   .div1-sec1>h1 {
     max-width: 370px;
@@ -1397,7 +1338,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   }
   .business-steps div, .business-steps div:last-child {
     width: 50%;
-    /* max-width: 460px; */
     padding-right: 9px;
     padding-left: 9px;
   }
@@ -1405,9 +1345,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
     font-size: 24px;
     margin-bottom: 45px;
   }
-  /* .business-steps div:last-child {
-    margin-right: 30px;
-  } */
   .business-steps div p {
     max-width: 400px;
   }
@@ -1429,7 +1366,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   }
   div.sell-text, div.market-text, div.manage-text {
     width: 100%;
-    /* max-width: 570px; */
     order: 1;
     padding-right: 0;
     padding-left: 0;
@@ -1487,7 +1423,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
     margin-bottom: 45px;
   }
   .text-sec6 .sec6-heading h2 {
-    /* min-width: 200px; */
     font-size: 28px;
   }
   .text-sec6 .help-ex, .business-steps, .sec1-footer {
@@ -1516,9 +1451,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   footer .add-padding, .sec1-footer>div, .sec2-footer>* {
     padding: 0 9px;
   }
-  /* .sec1-footer {
-    margin: 0 -9px;
-  } */
 }
 
 @media (min-width: 750px) and (max-width: 850px) {
@@ -1528,9 +1460,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   .suggestions div:nth-child(4) {
     display: none;
   }
-  /* .business-steps div, .business-steps div:last-child {
-    width: 50%;
-  } */
 }
 
 @media screen and (max-width: 749px) {
@@ -1568,7 +1497,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   }
   .suggestions>div>img, .suggestions>div>a {
     max-width: 267px;
-    /* min-width: 84px; */
   }
   .div1-sec2 {
     padding-bottom: 32px;
@@ -1604,9 +1532,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   .sec3 a {
     font-size: 16px;
   }
-  /* .sec3 .sell div.video-btn .video {
-    margin-right: 0;
-  } */
   #pause-video-btn {
     left: 0;
     bottom: 0;
@@ -1650,7 +1575,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   }
 
   .sec6 {
-    /* height: fit-content; */
     overflow: visible;
   }
   .text-sec6 {
@@ -1680,11 +1604,9 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   }
   .back-to-top-btn {
     padding: 0 calc(5% + 4px);
-    /* text-align: center; */
   }
 
   .nav-footer {
-    /* text-align: center; */
     padding: 25px 0;
   }
   .nav-footer ul li {
@@ -1693,13 +1615,9 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
     border: none;
   }
   .nav-footer ul li a {
-    /* display: inline-block; */
-    /* padding-top: 5px; */
     margin: 5px 8px 0;
   }
   .sec1-footer {
-    /* flex-direction: column;
-    flex-wrap: wrap; */
     display: block;
     margin: 0 -4px;
     overflow: auto;
@@ -1709,7 +1627,6 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   }
   .sec1-footer>div {
     width: 50%;
-    /* flex: 1 1 33%; */
     float: right;
   }
   .sec1-footer>div>div {
@@ -1719,20 +1636,15 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
     column-count: 1;
   }
   .sec1-footer .online-store {
-    /* flex: 1 1 100%; */
     float: left;
   }
   footer .sec2-footer {
     flex-direction: column;
     align-items: center;
-    /* text-align: center; */
   }
   footer .sec2-footer>ul li, footer .sec2-footer>div button{
     margin: 11px;
   }
-  /* footer .sec2-footer>div>ul {
-    margin-right: 0;
-  } */
   .sec2-footer .c-list {
     width: 338px; 
   }

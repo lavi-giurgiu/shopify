@@ -18,7 +18,6 @@ document.addEventListener('scroll', function(event) {
   // CHANGE HEADER STYLE
   const el = event.target.documentElement
   hHeaderSec1 = sec1.clientHeight
-  console.log(el.scrollTop, '.....', hHeaderSec1)
 
   if (el.scrollTop > hHeaderSec1) {
     navHeader.style.backgroundColor = 'white'
@@ -236,10 +235,10 @@ startTrialBtn.forEach((stBtn)=> {
 function appendErrorMessage (el, message) {
   const span = createErrorSpan(message)
   setTimeout(() => {
-    // console.log(el.nextSibling)
     if (el.nextElementSibling !== null) {
       el.nextSibling.remove()
     }
+
     el.after(span)
     el.classList.add('error-ms') 
   }, 150);
@@ -262,7 +261,6 @@ function evInput () {
 function changeInpTextFormat () {
   const descript = this.previousElementSibling
   const checkText = this.value
-  console.log(descript)
   
   if (checkText === '') {
     this.style.cssText = 'padding-top: 16px; padding-bottom: 16px;'
@@ -361,7 +359,6 @@ function validStoreOnInp (storeInput) {
     const storeInput = modalPage.querySelector('#store-modal')
     if (storeInput.value.length < 4 && storeInput.value !== '') {
       appendErrorMessage(storeInput, 'Your store name must be at least 4 characters')
-      // console.log(storeInput.nextSibling)
     }
   })
 }
@@ -397,7 +394,6 @@ playVideo.forEach(btn => {
 
 function closeModal() {
   modalPage.querySelector('.close-modal').addEventListener('click', function() {  
-    // modalPage.querySelector('.modal>div').style.transition = 'all .255s ease-out'
     closeModalAct()
   })
 }
@@ -408,26 +404,29 @@ function closeModalAct () {
     modalPage.querySelector('.div2').classList.remove('active')
     modalPage.classList.remove('display-video')
   }
+
   if (modalPage.querySelector('.div1') !== null) {
     modalPage.querySelector('.div1').classList.remove('active')
   }
+
   if (modalPage.querySelector('.div3') !== null) {
     modalPage.querySelector('.div3').classList.remove('active-div')
-    // modalPage.style.cssText = 'transition: opacity 150ms;'
   }
-  console.log('special-enter')
+  
   modalPage.classList.remove('display-block')
   bodySelect.style.overflowY = 'scroll'
 }
 
 function displayModalVideo (videoSrc) {
   modalPage.innerHTML = videoSrc
+
   if (modalPage.querySelector('.div2') !== null) {
     modalPage.classList.add('display-video')
     modalPage.querySelector('.div2').classList.add('active')
   } else {
     modalPage.classList.add('display-block')
   }
+
   modalPage.querySelector('.div2>.modal-header, .div3>.modal-header').style.paddingBottom = '10px'
   closeModal()
 }
@@ -582,13 +581,15 @@ function displayFormFromModal() {
 
 function closeModalInModal (ev, div, head) {   
   if (!(div.contains(ev.target) || head.contains(ev.target))) {
-    // console.log(div.contains(ev.target) || head.contains(ev.target))
+
     closeModalAct()
+
     modalPage.style.cssText = `
       background-color: #212326; 
       overflow: hidden;
     ` 
   } else {
+
     return
   }
 }
