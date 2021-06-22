@@ -1,28 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-*,*::before, *::after {
-  box-sizing: border-box;
-}
-a, button,  input {
-  font-family: Shopify Sans Web Regular, Helvetica, Arial, Lucida Grande, sans-serif;
-  font-size: 15.5px;
-  letter-spacing: .223px;
-  word-spacing: -0.7px;
-}
-a, button {
-  cursor: pointer;
-  border: none;
-  background-color: unset;
-  color: rgb(61, 61, 61);
-  font-weight: 400;
-  text-decoration: none;
-}
-h1, h2, h3 {
-  line-height: 1.333;
-  font-weight: 200;
+@font-face {font-family: "Shopify Sans Web Regular"; 
+  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot"); 
+  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot?#iefix") format("embedded-opentype"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff2") format("woff2"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff") format("woff"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.ttf") format("truetype"), 
+  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.svg#Shopify Sans Web Regular") format("svg"); 
 }
 
 @font-face {font-family: "Shopify Sans Web Medium";
@@ -43,19 +25,41 @@ h1, h2, h3 {
   url("https://db.onlinewebfonts.com/t/d2113531b60b80abb9710c514ca5fcfa.svg#Shopify Sans Web Bold") format("svg"); 
 }
 
-@font-face {font-family: "Shopify Sans Web Regular"; 
-  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot"); 
-  src: url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.eot?#iefix") format("embedded-opentype"), 
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff2") format("woff2"), 
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.woff") format("woff"), 
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.ttf") format("truetype"), 
-  url("https://db.onlinewebfonts.com/t/f5e745006bde1613ea8dc41d713bf031.svg#Shopify Sans Web Regular") format("svg"); 
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
+*,*::before, *::after {
+  box-sizing: border-box;
+}
+
+a, button,  input {
+  font-family: Shopify Sans Web Regular, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-size: 15.5px;
+  letter-spacing: .223px;
+  word-spacing: -0.7px;
+}
+a, button {
+  cursor: pointer;
+  border: none;
+  background-color: unset;
+  color: rgb(61, 61, 61);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  line-height: 1.333;
+  font-weight: 200;
+}
 
 video, img {
   vertical-align: middle;
 }
+
 img:not(.sec1 img) {
   opacity: 0;
   transition: all .25s linear;
@@ -63,6 +67,7 @@ img:not(.sec1 img) {
 img:not(.sec1 img).open-image {
   opacity: 1;
 }
+
 body {
   font-family: Shopify Sans Web Regular, Helvetica, Arial, Lucida Grande, sans-serif;
   line-height: 1.5;
@@ -94,7 +99,6 @@ body {
   transform: scale(0.85);
   transition: transform 150ms ease-out;
 }
-
 .modal .div1 form span:first-child, .form1>label {
   opacity: 0;
   position: absolute;
