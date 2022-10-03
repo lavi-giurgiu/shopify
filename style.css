@@ -1670,7 +1670,7 @@ footer .sec2-footer ul li, footer .sec2-footer>div>ul {
   } 
 }
 
-@media screen and (max-width: 394px) {
+@media screen and (max-width: 377px) {
   .sec2-footer .c-list {
     right: 50%;
     transform: translateX(50%);
